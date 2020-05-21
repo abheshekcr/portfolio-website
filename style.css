@@ -1,0 +1,145 @@
+/*
+Basic setup
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+   
+}
+
+.main-nav{
+    float:right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    background-color: #BE3144;
+    width: 100%;
+    height:75px;
+}
+
+.container{
+    color:#F0F0E0;
+    background-color: #222225;
+    width: 100%;
+    height:90vh;
+    margin-top: -40px;
+}
+
+.sub-container{
+    text-align: center;
+    position: relative;
+    top:200px;
+    font-size: 25px;
+}
+
+.subtag{
+    color:#AC2D31;
+    font-size: 1.3em;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.projects-block{
+    width:100%;
+    height:140vh;
+    color: #D1CCD5;
+    background-color: #45567D;;
+}
+
+.placeholder-img{
+    width: 60%;
+    height:60%;
+}
+
+.projects-info{
+    font-size: 2em;
+    text-align: center;
+    padding:40px;
+}
+
+span{
+    display: inline-block;
+    border-bottom:2px solid #F0F0F0;
+    padding-bottom:4px;
+}
+
+.projects-grid{
+   display:grid;
+   grid-template-columns: auto auto auto;
+   justify-self: center;
+   margin-left: 10%;
+   margin-top: 5%;
+
+}
+
+.more-projects{
+    width:50%;
+    border: 2px solid black;
+    background-color:#303841;
+    color:white;
+    padding:10px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top:50px;
+    left:450px;
+}
+
+.more-projects:hover{
+    background-color: #BE3144;
+    transition-delay: 0.3s ease-in;
+}
+
+.work-together{
+    top:100px;
+    width:100%;
+    height:50vh;
+    background-color: #303841;
+    text-align: center;
+    padding-top: 100px;
+    border-bottom: 4px solid #BE3144;
+}
+
+.work-heading{
+    font-size: 3em;
+}
+
+.work-para{
+    padding-top: 20px;
+}
+
+
+.social-icons{
+    padding-top: 30px;
+}
+
+a{
+    color: inherit;
+    padding: 10px;
+    color: #F0F0F0;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
